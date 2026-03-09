@@ -283,7 +283,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &569311912
 RectTransform:
   m_ObjectHideFlags: 0
@@ -300,8 +300,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -208.09668, y: -82.596695}
-  m_SizeDelta: {x: 516.1934, y: 119.1934}
+  m_AnchoredPosition: {x: 0, y: -100}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &569311913
 MonoBehaviour:
@@ -852,7 +852,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Press and Hold to exit the game
+  m_text: Press and Hold
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 03bb3bf6b6bf0f945836484240e95b4f, type: 2}
   m_sharedMaterial: {fileID: -2741303086954767387, guid: 03bb3bf6b6bf0f945836484240e95b4f, type: 2}
