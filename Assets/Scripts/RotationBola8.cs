@@ -7,11 +7,11 @@ public class RotationBola8 : MonoBehaviour
 
     void Update()
     {
-        transform.Rotate(0, 50 * Time.deltaTime, 0);  
+        transform.Rotate(0, 500 * Time.deltaTime, 0);  
     }
 
     void rotateAlrevez()
     {
-        transform.Rotate(0, -50 * Time.deltaTime, 0);
+        transform.Rotate(0, -500 * Time.deltaTime, 0);
     }
 }
