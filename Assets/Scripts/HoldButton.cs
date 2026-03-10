@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -43,5 +44,10 @@ public class HoldButton : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         holding = false;
         timer = 0f;
         progressFill.fillAmount = 0f;
+    }
+
+    public void ExitGame()
+    {
+        Application.Quit();
     }
 }
