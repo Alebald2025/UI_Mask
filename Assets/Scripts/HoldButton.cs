@@ -46,7 +46,8 @@ public class HoldButton : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         progressFill.fillAmount = 0f;
     }
 
-    public void ExitGame()
+
+    public void Salir()
     {
         Application.Quit();
     }
